@@ -58,26 +58,26 @@ class Program
 
         gradeSign = grades % 10;
 
-        if (gradeSign >= 7)
+        if (gradeSign >= 7 && grades>= 60)
         {
             letterSign = "+";
         }
-        else if (gradeSign <= 3)
+        else if (gradeSign <= 3 && grades>= 60)
         {
             letterSign = "-";
         }
 
         //Printing results
-        Console.Write($"Your grade letter is {letterSign}{grades} ");
+        Console.WriteLine($"Your grade letter is {letterSign}{letter} ");
 
         if (grades >= 60 )
         {
-            Console.Write("Congratulations!!!!!");
+            Console.WriteLine("Congratulations!!!!!");
         }
 
         else
         {
-            Console.Write("You can do better next time. Go ahead!");
+            Console.WriteLine("You can do better next time. Go ahead!");
         }
 
 
