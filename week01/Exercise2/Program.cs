@@ -68,7 +68,7 @@ class Program
         }
 
         //Printing results
-        Console.WriteLine($"Your grade letter is {letterSign}{letter} ");
+        Console.WriteLine($"Your grade letter is {letter}{letterSign} ");
 
         if (grades >= 60 )
         {
