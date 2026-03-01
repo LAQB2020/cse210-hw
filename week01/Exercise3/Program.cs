@@ -7,7 +7,7 @@ class Program
         string playAgain;
         do {
             Random randomGenerator = new Random();
-            int randomNumber = randomGenerator.Next(1, 100), userNumber;    
+            int randomNumber = randomGenerator.Next(1, 101), userNumber;    
             do
             {
                 while (true)
