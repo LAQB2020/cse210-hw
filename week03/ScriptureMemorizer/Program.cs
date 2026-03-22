@@ -1,5 +1,7 @@
 using System;
-
+/// <summary>
+/// To show creativity, I added a list of scriptures and the program chooses one randomly.
+/// </summary>
 class Program
 {
     static void Main(string[] args)
