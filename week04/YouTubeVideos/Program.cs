@@ -10,7 +10,7 @@ class Program
         Video v1 = new Video("Intro to Programming", "Luis", 300);
         v1.AddComment(new Comment("Ana", "Great video!"));
         v1.AddComment(new Comment("Carlos", "It helped me a lot"));
-        v1.AddComment(new Comment("Sofia", "Can you explain it slower? 😅"));
+        v1.AddComment(new Comment("Sofia", "Can you explain it slower?"));
 
         // Video 2
         Video v2 = new Video("C# Basics", "Pedro", 450);
@@ -21,7 +21,7 @@ class Program
         // Video 3
         Video v3 = new Video("OOP in C#", "Andrea", 600);
         v3.AddComment(new Comment("Luis", "Now I understand classes"));
-        v3.AddComment(new Comment("Fernanda", "Awesome 👏"));
+        v3.AddComment(new Comment("Fernanda", "Awesome"));
         v3.AddComment(new Comment("Raul", "More examples please"));
 
         // Video 4 (optional but recommended)
