@@ -23,7 +23,8 @@ class Program
         //Print Results
         Console.WriteLine(o1.GetPackingLabel());
         Console.WriteLine($"Total cost: {o1.CopmuteTotalCost()}\n");
-        Console.WriteLine(o1.GetShippingLabel());   
+        Console.WriteLine(o1.GetShippingLabel()); 
+          
         //Customer Definition Addres in MEX, same order 
         Address a2 = new Address("30 Cerrada Ocampo","El Rosario","HGO","MEX");
         Customer c2 =new Customer("Angel Bautista",a2);
@@ -36,7 +37,7 @@ class Program
         o2.AddProduct(p4);
         o2.AddProduct(p5);
         //Print Results
-        Console.WriteLine(o2.GetPackingLabel());
+        Console.WriteLine("\n"+ o2.GetPackingLabel());
         Console.WriteLine($"Total cost: {o2.CopmuteTotalCost()}\n");
         Console.WriteLine(o2.GetShippingLabel());   
     }
