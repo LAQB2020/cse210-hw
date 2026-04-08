@@ -6,8 +6,7 @@ class Program
     static void Main(string[] args)
     {
         
-        
-        
+             
         
         Square s1 = new Square("white",5);
         Rectangle r1 = new Rectangle("blue", 5, 4 );
