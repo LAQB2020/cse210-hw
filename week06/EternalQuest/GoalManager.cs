@@ -12,7 +12,7 @@ public class GoalManager
     {
         string choice = "";
 
-        while (choice != "6")
+        while (choice != "7")
         {
             Console.WriteLine("\nMenu:");
             Console.WriteLine("1. Create Goal");
